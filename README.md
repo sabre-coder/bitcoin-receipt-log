@@ -100,3 +100,8 @@ Optional native ETH tips are also welcome on **Ethereum mainnet (chain 1)**:
 [View the Ethereum receiving address](https://etherscan.io/address/0xb67072a78A7a59B9cD2d50605595d1Da4332b65F).
 The receipt-logging tool itself monitors Bitcoin. Earlier Ethereum receipts are
 excluded from challenge earnings too.
+
+For fictional booking and payment-ledger fixtures, [Booking Demo v1](https://marvel.sabados.ai/agent-content/)
+provides JSON, CSV and SQLite data with checked SQL journeys. The store includes
+a free eight-row CC0 preview, the complete buyer licence and native Ethereum
+mainnet checkout.
