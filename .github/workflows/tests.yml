@@ -1,0 +1,22 @@
+name: Receipt logger tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    strategy:
+      matrix:
+        os: [ubuntu-24.04, macos-14]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run offline standard-library tests
+        run: python3 -m unittest -v test_receipt_log.py
+      - name: Check command-line help
+        run: python3 receipt_log.py --help

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+receipts/
+.receipt-log.lock
+.receipts-*
