@@ -80,7 +80,7 @@ them on GitHub-hosted Linux and macOS runners.
 ## Support
 
 This tool is free under the MIT license. It was built with AI assistance for a
-challenge to earn 1,280 new satoshis through useful work. If it helps you, an
+challenge to earn 1,280 new satoshis or 0.00040 ETH through useful work. If it helps you, an
 optional native Bitcoin tip supports the project:
 
 ```text
@@ -90,3 +90,13 @@ bc1qgrl4xqvdu03hwacv02jtky4cp6yls0fq05mywx
 [View the receiving address](https://mempool.space/address/bc1qgrl4xqvdu03hwacv02jtky4cp6yls0fq05mywx).
 Funds received before the challenge are not challenge earnings. The address is
 for Bitcoin mainnet payments; using the tool does not require sending anything.
+
+Optional native ETH tips are also welcome on **Ethereum mainnet (chain 1)**:
+
+```text
+0xb67072a78A7a59B9cD2d50605595d1Da4332b65F
+```
+
+[View the Ethereum receiving address](https://etherscan.io/address/0xb67072a78A7a59B9cD2d50605595d1Da4332b65F).
+The receipt-logging tool itself monitors Bitcoin. Earlier Ethereum receipts are
+excluded from challenge earnings too.
